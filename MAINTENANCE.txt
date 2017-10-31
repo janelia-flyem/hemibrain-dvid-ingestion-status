@@ -1,0 +1,20 @@
+Github will automatically render markdown files into html for the repo wiki,
+but sometimes it's nice to see your changes locally before committing them to github.
+
+To render the markdown files locally:
+
+gem install commonmarker
+gem install github-markup
+
+# Generate all .html files (dumped to html/)
+./render.sh
+
+# Generate one .html file
+./render.sh Home.md
+
+(Do not commit the rendered html files.)
+
+(Some features, like checkboxes, will cannot be rendered locally.)
+
+Hint: Markdown tables are easer to write/edit using an online tool:
+      https://www.tablesgenerator.com/markdown_tables
