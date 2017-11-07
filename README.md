@@ -11,5 +11,8 @@ volumes of the FlyEM the Hemi-Brain Connectome project.
 Contents
 --------
 
-- [Section 24](./section-24.md)
 - [Section 23](./section-23.md)
+- [Section 24](./section-24.md)
+- [Section 25](./section-25.md)
+- [Section 26](./section-26.md)
+- [Section 27](./section-27.md)
