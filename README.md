@@ -8,6 +8,9 @@ volumes of the FlyEM the Hemi-Brain Connectome project.
      https://www.tablesgenerator.com/markdown_tables -->
 
 
+To request new ingestion jobs or to report an inaccuracy/omission
+in these documents, please [open an issue](../../issues).
+
 Contents
 --------
 
