@@ -12,3 +12,4 @@ Contents
 --------
 
 - [Section 24](./section-24.md)
+- [Section 23](./section-23.md)
