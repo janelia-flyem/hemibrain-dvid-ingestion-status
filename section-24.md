@@ -48,8 +48,8 @@ Section 24
 | FFN (only)            |                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------|
 | Instance name         | `segmentation-ffn_agglo_pass1_cpt5663627_medt160`                                         |
-| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a:segmentation-ffn_agglo_pass1_cpt5663627_medt160` |
-| ChangeStack           | \<none>                                                                                   | 
+| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a`                  |
+| ChangeStack           | `segmentation-ffn_agglo_pass1_cpt5663627_medt160`                                         | 
 
 **Denormalizations:**
 
@@ -62,8 +62,8 @@ Section 24
 | FFN+Celis-Agglomerated |                                                                                           |
 |------------------------|-------------------------------------------------------------------------------------------|
 | Instance name          | `segmentation-ffn_agglo_pass1_cpt5663627_medt160_with_celis_cx2-2048_r10_mask200_0`       |
-| BMaps VolumeID         | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a:ffn_agglo_pass1_cpt5663627_medt160_with_celis_cx2-2048_r10_mask200_0` |
-| ChangeStack            | \<none>                                                                                   | 
+| BMaps VolumeID         | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a`                  |
+| ChangeStack            | `ffn_agglo_pass1_cpt5663627_medt160_with_celis_cx2-2048_r10_mask200_0`                    | 
 
 **Denormalizations:**
 
@@ -76,8 +76,8 @@ Section 24
 | Celis (only)           |                                                                                           |
 |------------------------|-------------------------------------------------------------------------------------------|
 | Instance name          | `segmentation-segmentation-celis_cx2-2048_r10_mask200_0`                                  |
-| BMaps VolumeID         | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a:segmentation-celis_cx2-2048_r10_mask200_0` |
-| ChangeStack            | \<none>                                                                                   | 
+| BMaps VolumeID         | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a:`                 |
+| ChangeStack            | `segmentation-celis_cx2-2048_r10_mask200_0`                                               | 
 
 **Denormalizations:**
 
