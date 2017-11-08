@@ -54,8 +54,8 @@ Section 24
 **Denormalizations:**
 
 - [X] Labelarray pyramids
-- [ ] Skeletons
-- [ ] Meshes
+- [X] Skeletons
+- [X] Meshes
 
 ---
 
