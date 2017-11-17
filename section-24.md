@@ -45,7 +45,7 @@ Section 24
 ---
 
 
-| FFN (only)            |                                                                                           |
+| FFN-Agglomerated      |                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------|
 | Instance name         | `segmentation-ffn_agglo_pass1_cpt5663627_medt160`                                         |
 | BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a`                  |
