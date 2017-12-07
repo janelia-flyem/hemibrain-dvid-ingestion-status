@@ -49,7 +49,7 @@ Section 24
 |-----------------------|-------------------------------------------------------------------------------------------|
 | Instance name         | `segmentation-ffn_agglo_pass1_cpt5663627_medt160`                                         |
 | BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a`                  |
-| ChangeStack           | `segmentation-ffn_agglo_pass1_cpt5663627_medt160`                                         | 
+| ChangeStack           | `ffn_agglo_pass1_cpt5663627_medt160`                                                      | 
 
 **Denormalizations:**
 
@@ -77,7 +77,7 @@ Section 24
 |------------------------|-------------------------------------------------------------------------------------------|
 | Instance name          | `segmentation-segmentation-celis_cx2-2048_r10_mask200_0`                                  |
 | BMaps VolumeID         | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a:`                 |
-| ChangeStack            | `segmentation-celis_cx2-2048_r10_mask200_0`                                               | 
+| ChangeStack            | `celis_cx2-2048_r10_mask200_0`                                                            | 
 
 **Denormalizations:**
 
