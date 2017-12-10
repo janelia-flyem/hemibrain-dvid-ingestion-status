@@ -21,15 +21,15 @@ Section 27
 
 ### Segmentation Instances
 
+### NOTE: This data is currently downloading from Google BrainMaps -- these instances are not to be used until this note is deleted! 
+
 | Node/ingestion info   | (applies to all of the below)                                                             |
 |-----------------------|-------------------------------------------------------------------------------------------|
 | DVID Repo             | [local-flattened-section-27](http://emdata3:8000/#/repo/8b24c30267d645d999de18702736f868) |
 | UUID                  | `8b24c30267d645d999de18702736f868`                                                        |
-| Ingestion Configs     | `/groups/flyem/data/scratchspace/copyseg-configs/ffn-tabs/section-27-v2a-ffn`             |
+| Ingestion Configs     | `/groups/flyem/data/scratchspace/copyseg-configs/labelmaps/section-27`                    |
 
 ---
-
-<!-- No base yet...
 
 | Base                  |                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------|
@@ -44,13 +44,11 @@ Section 27
 - [ ] Meshes
 
 ---
--->
 
-
-| FFN-Agglomerated      | (for now the FFN-agglo is the only one loaded, and it is named `segmentation`)            |
+| FFN-Agglomerated      |                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------|
-| Instance name         | `segmentation`                                                                            |
-| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a`                  |
+| Instance name         | `segmentation-ffn_agglo_pass1_seg5663627_medt160`                                         |
+| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec27_seg_v2a`                  |
 | ChangeStack           | `ffn_agglo_pass1_seg5663627_medt160`                                                      |
 
 **Denormalizations:**
@@ -60,3 +58,37 @@ Section 27
 - [ ] Meshes
 
 ---
+
+| FFN+Celis             |                                                                                                |
+|-----------------------|------------------------------------------------------------------------------------------------|
+| Instance name         | `segmentation-ffn_agglo_pass1_cpt5663627_medt160_with_celis_cx2-2048_r10_mask_only_celis200_0` |
+| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec27_seg_v2a`                       |
+| ChangeStack           | `ffn_agglo_pass1_cpt5663627_medt160_with_celis_cx2-2048_r10_mask_only_celis200_0`              |
+
+**Denormalizations:**
+
+- [X] Labelarray pyramids
+- [ ] Skeletons
+- [ ] Meshes
+
+### Deprecated instances/nodes
+
+<details>
+<summary>Click here</summary>
+
+#### The FFN-agglomerated segmentation was originally loaded as `segmentation`, but the preferred instance name is shown above.
+
+| FFN-Agglomerated      |                                                                                           |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| Instance name         | `segmentation`                                                                            |
+| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec24_seg_v2a`                  |
+| ChangeStack           | `ffn_agglo_pass1_seg5663627_medt160`                                                      |
+| Ingestion Configs     | `/groups/flyem/data/scratchspace/copyseg-configs/ffn-tabs/section-27-v2a-ffn`             |
+
+**Denormalizations:**
+
+- [X] Labelarray pyramids
+- [ ] Skeletons
+- [ ] Meshes
+
+</details>
