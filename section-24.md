@@ -21,10 +21,10 @@ Section 24
 
 ### Segmentation Instances
 
-| Node/ingestion info   | (applies to all of the below)                                                             |
+| Node/ingestion info   | (applies to all of the below, except as noted)                                            |
 |-----------------------|-------------------------------------------------------------------------------------------|
 | DVID Repo             | [local-flattened-section-24](http://emdata3:8000/#/repo/100e772473774d9e9042829ed9af39f8) |
-| UUID                  | `662bb797c4934614854c8af16c582920`                                                        |
+| UUID                  | `662bb797c4934614854c8af16c582920` (some skeletons/meshes not added until `244f9550647243c5933687493b074c4b`, as noted) |
 | Ingestion Configs     | `/groups/flyem/data/scratchspace/copyseg-configs/labelmaps/section-24`                    |
 
 ---
@@ -40,7 +40,7 @@ Section 24
 
 - [X] Labelarray pyramids
 - [ ] Skeletons
-- [ ] Meshes
+- [X] Meshes (added in `244f9550647243c5933687493b074c4b`)
 
 ---
 
