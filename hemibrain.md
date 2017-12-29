@@ -12,10 +12,10 @@ Aligned Hemibrain
 
 **Denormalizations:**
 
-- [X] Raw full-res  (IN PROGRESS)
-- [X] Raw pyramids  (IN PROGRESS)
-- [X] JPEG full-res (IN PROGRESS)
-- [X] JPEG pyramids (IN PROGRESS)
+- [X] Raw full-res (`grayscale`)
+- [X] Raw pyramids
+- [X] JPEG full-res (`grayscalejpeg`)
+- [X] JPEG pyramids
 
 Launch Commands:
 
