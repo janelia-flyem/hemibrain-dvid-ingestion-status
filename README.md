@@ -14,6 +14,7 @@ in these documents, please [open an issue](../../issues).
 Contents
 --------
 
+- [Aligned Hemibrain](./hemibrain.md)
 - [Section 23](./section-23.md)
 - [Section 24](./section-24.md)
 - [Section 25](./section-25.md)

@@ -17,4 +17,11 @@ Aligned Hemibrain
 - [X] JPEG full-res (IN PROGRESS)
 - [X] JPEG pyramids (IN PROGRESS)
 
+Launch Commands:
+
+```
+cd /groups/flyem/data/scratchspace/dvid-configs
+./launch-dvid-with-google-creds.sh hemibrain-dvid-config.toml
+```
+
 ---

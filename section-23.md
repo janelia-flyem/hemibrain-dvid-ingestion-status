@@ -19,3 +19,42 @@ Section 23
 
 ---
 
+### Segmentation Instances
+
+| Node/ingestion info   | (applies to all of the below)                                                             |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| DVID Repo             | [local-flattened-section-24](http://emdata3:8000/#/repo/f3870173ad1d4a6a872b9fd860e246b3) |
+| UUID                  | `f3870173ad1d4a6a872b9fd860e246b3`                                                        |
+| Ingestion Configs     | `/groups/flyem/data/scratchspace/copyseg-configs/labelmaps/section-23`                    |
+
+---
+
+
+| Base                  |                                                                                           |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| Instance name         | `segmentation-base`                                                                       |
+| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs:sec23_seg_v2a`                  |
+| ChangeStack           | \<none>                                                                                   | 
+
+**Denormalizations:**
+
+- [X] Labelarray pyramids
+- [ ] Skeletons
+- [ ] Meshes
+
+---
+
+
+| FFN (only)            |                                                                                           |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| Instance name         | `segmentation-ffn_agglo_pass1_cpt5663627_medt160`                                         |
+| BMaps VolumeID        | `brainmaps://274750196357:janelia-flyem-cx-flattened-tabs`                                |
+| ChangeStack           | `sec23_seg_v2a:segmentation-ffn_agglo_pass1_cpt5663627_medt160`                           | 
+
+**Denormalizations:**
+
+- [X] Labelarray pyramids
+- [ ] Skeletons
+- [ ] Meshes
+
+---
