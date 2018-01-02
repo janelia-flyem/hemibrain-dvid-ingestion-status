@@ -25,3 +25,60 @@ cd /groups/flyem/data/scratchspace/dvid-configs
 ```
 
 ---
+
+### Segmentation Instances
+
+| Node/ingestion info   | (applies to all of the below, except as noted)                                            |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| DVID Repo             | [hemibrain](http://emdata3:8000/#/repo/1d1d0ccb466444618c2eb91e95b1b520)                  |
+| UUID                  | `1d1d0ccb466444618c2eb91e95b1b520`                                                        |
+| Ingestion Configs     |                                                                                           |
+
+---
+
+
+| Base                  |  (Not ingested yet.)                                                                      |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| Instance name         | `segmentation-base`                                                                       |
+| BMaps VolumeID        | `brainmaps://274750196357:hemibrain:prelim_000_8nm`                                       |
+| ChangeStack           | \<none>                                                                                   | 
+
+**Denormalizations:**
+
+- [ ] Labelarray pyramids
+- [ ] Skeletons
+- [ ] Meshes
+
+---
+
+<!--
+
+| FFN-Agglomerated      |                                                                                           |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| Instance name         | `segmentation-`                                         |
+| BMaps VolumeID        | `brainmaps://274750196357:hemibrain:prelim_000_8nm`                  |
+| ChangeStack           | ``                                                      | 
+
+**Denormalizations:**
+
+- [ ] Labelarray pyramids
+- [ ] Skeletons
+- [ ] Meshes
+
+---
+
+| FFN+Celis-Agglomerated |                                                                                           |
+|------------------------|-------------------------------------------------------------------------------------------|
+| Instance name          | `segmentation-`       |
+| BMaps VolumeID         | `brainmaps://274750196357:hemibrain:prelim_000_8nm`                  |
+| ChangeStack            | ``                    | 
+
+**Denormalizations:**
+
+- [ ] Labelarray pyramids
+- [ ] Skeletons
+- [ ] Meshes
+
+---
+
+-->
