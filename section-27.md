@@ -21,8 +21,6 @@ Section 27
 
 ### Segmentation Instances
 
-### NOTE: This data is currently downloading from Google BrainMaps -- these instances are not to be used until this note is deleted! 
-
 | Node/ingestion info   | (applies to all of the below)                                                             |
 |-----------------------|-------------------------------------------------------------------------------------------|
 | DVID Repo             | [local-flattened-section-27](http://emdata3:8000/#/repo/8b24c30267d645d999de18702736f868) |

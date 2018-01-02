@@ -23,7 +23,7 @@ Section 23
 
 | Node/ingestion info   | (applies to all of the below)                                                             |
 |-----------------------|-------------------------------------------------------------------------------------------|
-| DVID Repo             | [local-flattened-section-24](http://emdata3:8000/#/repo/f3870173ad1d4a6a872b9fd860e246b3) |
+| DVID Repo             | [section-23-v2a-ffn](http://emdata3:8000/#/repo/f3870173ad1d4a6a872b9fd860e246b3)         |
 | UUID                  | `f3870173ad1d4a6a872b9fd860e246b3`                                                        |
 | Ingestion Configs     | `/groups/flyem/data/scratchspace/copyseg-configs/labelmaps/section-23`                    |
 
