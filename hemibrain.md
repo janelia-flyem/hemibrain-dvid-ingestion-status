@@ -17,11 +17,38 @@ Aligned Hemibrain
 - [X] JPEG full-res (`grayscalejpeg`)
 - [X] JPEG pyramids
 
-Launch Commands:
+**Launch Commands:**
 
 ```
 cd /groups/flyem/data/scratchspace/dvid-configs
 ./launch-dvid-with-google-creds.sh hemibrain-dvid-config.toml
+```
+
+**Volume bounding box (X,Y,Z):**
+
+```
+[[    0,     0,     0],
+ [34427, 39725, 41394]]
+```
+
+**Tab Boundaries (X axis):**
+
+(Note: These are not the same boundaries as reported by Stephan, because we transformed aligned volume before uploading it.)
+
+```
+ 34: [0,      2655]
+ 33: [2655,   5251],
+ 32: [5251,   7920],
+ 31: [7920,  10600],
+ 30: [10600, 13229],
+ 29: [13229, 15895],
+ 28: [15895, 18489],
+ 27: [18489, 21204],
+ 26: [21204, 24041],
+ 25: [24041, 26853],
+ 24: [26853, 29743],
+ 23: [29743, 32360],
+ 22: [32360, 34427],
 ```
 
 ---
