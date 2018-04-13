@@ -53,7 +53,28 @@ cd /groups/flyem/data/scratchspace/dvid-configs
 
 ---
 
-### Segmentation Instances
+
+#### Mesh generation notes:
+
+Large bodies (>1 Gv, a.k.a. Shinya's bodies) were generated from these directories:
+
+```
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-sv-meshes-20180321.111533/
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-body-meshes-20180321.231858/
+```
+
+Medium bodes (>10 Mv) were generated from these directories:
+
+Note: These were generated from a so-called 'updated' segmentation, with 24 supervoxel renames!
+
+```
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-sv-meshes-20180405.231145/
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-body-meshes-20180403.233157/
+```
+
+<!--
+
+### OBSOLETE Segmentation Instances
 
 | Node/ingestion info   | (applies to all of the below, except as noted)                                            |
 |-----------------------|-------------------------------------------------------------------------------------------|
@@ -78,7 +99,6 @@ cd /groups/flyem/data/scratchspace/dvid-configs
 
 ---
 
-<!--
 
 | FFN-Agglomerated      |                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------|
