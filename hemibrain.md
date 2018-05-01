@@ -53,6 +53,40 @@ cd /groups/flyem/data/scratchspace/dvid-configs
 
 ---
 
+### Segmentation (fixsplit-patched)
+
+Base: `brainmaps://274750196357:hemibrain:base20180227_8nm_watershed_fixed`
+
+Agglo: Custom-patched version of `final_20180312_32nm_16nm_all_cbs32_upto10_cb16_upto10_freeze_all_upd0408_v2`.
+
+See:
+
+```
+/nrs/flyem/bergs/final-agglo-fixsplit-patched/README.txt
+/nrs/flyem/bergs/final-agglo-fixsplit-patched/final_patched_20180426_merge_table.npy
+```
+
+#### Meshes
+
+Large bodies (>1 Gv, a.k.a. Shinya's bodies) were generated from these directories:
+
+```
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-sv-meshes-large-bodies-20180426.231655/
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-body-meshes-medium-bodies-20180429.112135/
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-body-meshes-large-bodies-20180429.200817/
+```
+
+
+Medium bodes (>10 Mv) were generated from these directories:
+
+```
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-sv-meshes-20180426.231521/
+/groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-body-meshes-20180428.145638/
+```
+
+<!-- ************************************* -->
+
+<!-- OBSOLETE NOTES
 
 #### Mesh generation notes:
 
@@ -71,8 +105,6 @@ Note: These were generated from a so-called 'updated' segmentation, with 24 supe
 /groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-sv-meshes-20180405.231145/
 /groups/flyem/data/scratchspace/create-meshes/hemibrain/create-hemi-stitched-body-meshes-20180403.233157/
 ```
-
-<!--
 
 ### OBSOLETE Segmentation Instances
 
